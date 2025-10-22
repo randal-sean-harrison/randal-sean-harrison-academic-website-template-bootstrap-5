@@ -27,4 +27,4 @@ Distributed under the **MIT License**. See the `LICENSE.md` file for more inform
 
 **Author:** Randal Sean Harrison, PhD | find me @ [randalseanharrison.com](https://randalseanharrison.com)
 
-**Project Link:** `https://github.com/randal-sean-harrison/randal-sean-harrison-academic-website-template-bootstrap-5`
+**Project Link:** [`https://github.com/randal-sean-harrison/randal-sean-harrison-academic-website-template-bootstrap-5`](https://github.com/randal-sean-harrison/randal-sean-harrison-academic-website-template-bootstrap-5)
