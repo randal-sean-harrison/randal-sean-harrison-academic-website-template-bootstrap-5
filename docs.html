@@ -18,37 +18,177 @@
          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
       <!-- Local CSS -->
       <link href="css/main.css" rel="stylesheet">
+
+      <!-- custom css -->
+      <style>
+         #back-to-top {
+            position: fixed;
+            bottom: 40%;
+            right: 0;
+            z-index: 99;
+            border: none;
+            outline: none;
+            background-color: var(--bright-blue);
+            color: var(--white) !important;
+            padding: 8px 4px 10px 4px;
+            border-radius: 2px 0 0 2px;
+            cursor: pointer !important;
+         }
+
+         .jumbotron {
+            background: linear-gradient(rgba(7, 55, 99, 0.6), rgba(7, 55, 99, 0.6)), url(img/docs-banner.jpg) center/cover no-repeat;
+         }
+      </style>
+
    </head>
 
-   <body>
+   <body id="top">
       <div class="container" id="bsr-wrapper">
+
+         <p class="display-2 chocolate mt-5">Academic Website Template</p>
+
          <!-- I recommend you abstract this custom CSS in the inline style here which points to the image -->
-         <div class='jumbotron rounded-0 mb-4'
-            style='background: linear-gradient(rgba(7, 55, 99, 0.6), rgba(7, 55, 99, 0.6)), url(https://unsplash.it/1400/400) center/cover no-repeat'>
+         <div class='jumbotron rounded-3 mb-4 mt-5'>
             <div class='container p-5'>
-               <h3 class='display-5 fw-bold text-white'>Jumbotron</h3>
-               <p class='fs-3 text-white opacity-75'>This right here is the subtitle ...</p>
-               <p class='lead text-white'>This is a simple jumbotron (or hero unit), a component useful for calling
-                  extra attention to featured content or information.</p><button class='btn btn-primary btn-lg mt-4'
-                  type='button'><i class='bi bi-info-circle-fill me-2'></i>Learn more </button>
+               <h3 class='display-5 fw-bold text-end text-white'>docs</h3>
+
+               <ul class="list-group list-group-flush text-end bg-transparent border-white border-end me-2">
+                  <li data-target="section1"
+                     class="list-group-item list-group-item-action text-end bg-transparent lead fw-bold text-white opacity-50 border-0 pointer"
+                     aria-current="false">What is this?</li>
+                  <li data-target="section2"
+                     class="list-group-item list-group-item-action bg-transparent lead fw-bold text-white opacity-50 border-0 pointer"
+                     aria-current="false">How do I download this?</li>
+                  <li data-target="section3"
+                     class="list-group-item list-group-item-action bg-transparent lead fw-bold text-white opacity-50 border-0 pointer"
+                     aria-current="false">How do I modify this?</li>
+                  <li data-target="section4"
+                     class="list-group-item list-group-item-action bg-transparent lead fw-bold text-white opacity-50 border-0 pointer"
+                     aria-current="false">How do I credit the author?</li>
+                  <li data-target="section5"
+                     class="list-group-item list-group-item-action bg-transparent lead fw-bold text-white opacity-50 border-0 pointer"
+                     aria-current="false">FAQ</li>
+               </ul>
             </div>
          </div>
-         <h2 class="display-3">Heading level 2</h2>
-         <h2 class="display-3">Heading level 2</h2>
-         <h2 class="display-3">Heading level 2</h2>
-         <h2 class="display-3">Heading level 2</h2>
-         <h2 class="display-3">Heading level 2</h2>
-      </div><!-- Latest Stable jQuery and jQuery UI JS (useful but not required w/ Bootstrap 5.x) -->
+
+         <!-- section 1 -->
+         <div class="card p-5 mb-5 border-0" id="section1">
+            <h2 class="display-5 graphite mb-4">What is this?</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita blanditiis excepturi voluptate tenetur
+            error minima cupiditate dolorum, sit autem ipsam consectetur eligendi alias. Saepe laudantium nisi dolorem
+            cum, minus alias voluptas eveniet, eos, doloremque sapiente dolore itaque est deserunt ducimus consequatur
+            voluptatum? Minus voluptates, quod dolor ab molestiae repellat? Rem necessitatibus aliquam ut aliquid veniam
+            vel neque cupiditate expedita et tempore? Neque in labore quae similique illo, ut, qui quam mollitia
+            dolorum, consectetur est numquam corrupti dolore cupiditate adipisci praesentium hic rerum consequatur
+            incidunt! Voluptatibus in veniam, nobis doloribus ex quas, beatae natus esse ea quae numquam tempore et
+            illum illo tempora vel dolore deserunt dolores veritatis quo voluptas delectus tenetur similique. Fugit
+            distinctio quisquam dolorum possimus quae, placeat nihil, id amet provident accusantium nesciunt magnam nemo
+            molestiae molestias repudiandae consequuntur tenetur at? Quaerat maxime sed distinctio facere eveniet sunt
+            praesentium inventore. Expedita quod architecto autem, ab sed, ratione eum non, nemo aspernatur dicta ipsa
+            hic corrupti impedit esse illo. Quaerat deserunt ipsa nisi suscipit eligendi laudantium architecto
+            perspiciatis modi maxime recusandae consectetur ex obcaecati vel, magni id quae voluptatibus deleniti quod
+            natus sed, nesciunt at? Quibusdam debitis harum vitae numquam consequatur odit vel molestiae? Excepturi odio
+            quasi harum iste. Fugiat, cumque id, inventore vitae hic rerum praesentium quo consequuntur eveniet eius
+            tempora, similique facere esse voluptatem aperiam soluta delectus assumenda minima magnam? Atque animi
+            quibusdam voluptate dignissimos mollitia? Non, magni at omnis maxime aperiam sapiente harum ab quae, tempore
+            tempora voluptatibus ipsam sit animi! Explicabo repudiandae itaque error accusantium pariatur amet, nobis
+            blanditiis, reiciendis sit unde cum aperiam soluta earum architecto ipsum deleniti ab. Sapiente aliquam
+            commodi voluptate blanditiis, quidem, deleniti asperiores nihil modi eaque, labore suscipit. Totam rerum
+            sint nam at aperiam consectetur labore quis nisi enim ipsam qui ea consequuntur nobis ratione incidunt,
+            quam, aliquid accusantium minus neque vero fugit vitae dolore suscipit? Dolore laboriosam tempora, eum quia
+            deserunt enim. Quidem reprehenderit incidunt praesentium quae, sunt tempora adipisci a alias animi doloribus
+            necessitatibus iste. Laboriosam alias iste voluptatum odit quisquam quidem. Ea, libero voluptates ad dolorum
+            quod minima debitis sapiente incidunt nulla voluptate perspiciatis! Deleniti corrupti nesciunt, laborum
+            officia eius voluptas, expedita tempora quidem quam repudiandae nisi vel perferendis unde dignissimos aut.
+            Odio, officiis, asperiores aperiam impedit esse eveniet eum cupiditate aliquam, veniam sunt reprehenderit
+            eaque id minima. Dignissimos ullam quisquam numquam impedit accusantium fugiat fugit aliquam suscipit
+            accusamus doloremque sunt dolor, deserunt consequatur temporibus voluptatibus earum repellat iusto qui.
+            Architecto cumque laborum possimus reiciendis id ipsa, aliquid magnam exercitationem corrupti qui illum
+            quasi ut voluptates tenetur quod asperiores modi voluptas quos officiis eos culpa placeat. Laudantium
+            corporis delectus, praesentium cumque quis doloribus. Aperiam quas dolores perspiciatis explicabo id! Porro
+            harum aspernatur nihil eveniet neque unde laudantium sed quidem impedit, eius, labore voluptatem. Eligendi
+            quisquam soluta sunt corrupti facere minima quibusdam deserunt magni. Quibusdam vel expedita, quisquam
+            provident aspernatur animi accusantium exercitationem id sint quas sequi illum nihil, iusto cum ad nisi
+            voluptatum nemo quo, quam dicta sed quae perspiciatis. Ratione autem delectus modi accusamus, laudantium
+            amet!
+         </div>
+
+         <!-- section 2 -->
+         <div class="card p-5 mb-5 border-0" id="section2">
+            <h2 class="display-5 graphite mb-4">How do I download this? </h2>
+         </div>
+
+
+         <!-- section 3 -->
+         <div class="card p-5 mb-5 border-0" id="section3">
+            <h2 class="display-5 graphite mb-4">How do I modify this? </h2>
+         </div>
+
+         <!-- section 4 -->
+         <div class="card p-5 mb-5 border-0" id="section4">
+            <h2 class="display-5 graphite mb-4">How do I credit the author? </h2>
+            <p>Thank you for choosing this free web template! You are welcome to use and modify this template according
+               to the terms of
+               the <a href="LICENSE.md" target="_blank">MIT License</a>, which is included with this project.</p>
+
+            <p>Credit is not required on any front-facing pages of your resulting modified website.</p>
+
+            <p>However, I kindly ask that you retain the included <code class="bg-light py-1 px-2">humans.txt</code>
+               file,
+               unmodified. This file
+               contains
+               important,
+               non-visible metadata about the original creator and the template's initial structure, which helps to
+               maintain a record of its development.</p>
+         </div>
+
+         <!-- section 5 -->
+         <div class="card p-5 mb-5 border-0" id="section5">
+            <h2 class="display-5 graphite mb-4">FAQ </h2>
+         </div>
+
+
+      </div>
+
+      <!-- back-to-top button -->
+      <button type="button" class="btn btn-primary rounded-0 btn-lg" id="back-to-top"><i
+            class="bi bi-arrow-up-circle-fill fs-3 bright-blue"></i></button>
+
+      <!-- Latest Stable jQuery and jQuery UI JS (useful but not required w/ Bootstrap 5.x) -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
          integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js"
-         integrity="sha512-0Bpcki9x49X/si6oSTzCxzPWA/O+yr5HgRjGbH0Jw9sFeZqpsJ8ZnSLOn/6AuYJ3oj7kGbc5jFCOljW4W5DCnA=="
-         crossorigin="anonymous" referrerpolicy="no-referrer"></script><!-- Bootstrap bundle -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"
+         integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q=="
+         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- Bootstrap bundle -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
          crossorigin="anonymous"></script><!-- Local JS -->
-      <script src="js/main.js"></script>
+      <!-- <script src="js/main.js"></script> -->
+
+      <script>
+
+         $(document).ready(function () {
+
+            $('.list-group-item[data-target]').on('click', function (e) {
+               e.preventDefault();
+
+               const targetId = $(this).data('target');
+               const targetSelector = '#' + targetId;
+               const targetOffset = $(targetSelector).offset().top - 20;
+
+
+               $('html, body').animate({
+                  scrollTop: targetOffset
+               }, 800);
+
+            });
+
+         });
+      </script>
+
    </body>
 
 </html>

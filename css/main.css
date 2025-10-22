@@ -68,6 +68,10 @@ p {
    color: var(--chocolate);
 }
 
+.graphite {
+   color: var(--graphite);
+}
+
 .bright-blue {
    color: var(--bright-blue) !important;
 }
