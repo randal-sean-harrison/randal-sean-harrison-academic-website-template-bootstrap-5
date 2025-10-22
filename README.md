@@ -21,7 +21,7 @@ It's designed with the ubiquitous and popular front-end, Bootstrap (v5.3). And i
 
 ## License
 
-Distributed under the **MIT License**. See the `LICENSE.md` file for more information.
+Distributed under the **MIT License**. See the [`LICENSE.md`](LICENSE.md) file for more information.
 
 ## Contact/Author
 
