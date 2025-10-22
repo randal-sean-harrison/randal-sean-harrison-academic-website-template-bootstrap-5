@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>About Me</title>
+
+      <!-- Google font: Figtree -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+         rel="stylesheet">
+
+      <!-- Favicon -->
+      <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png" />
+      <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png" />
+      <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png" />
+      <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png" />
+      <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png" />
+      <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png" />
+      <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png" />
+      <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png" />
+      <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png" />
+      <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png" />
+      <link rel="manifest" href="img/favicons/manifest.json" />
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png" />
+      <meta name="theme-color" content="#ffffff" />
+
+      <!-- jQuery UI CSS (useful but not required for Boostrap v5.x) -->
+
+      <link rel="stylesheet"
+         href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+      <!-- Bootstrap icons -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+      <!-- Local CSS -->
+      <link href="css/main.css" rel="stylesheet">
+   </head>
+
+   <body id="top" data-current-page="index" class="p-0">
+
+      <!-- Dynamically loaded navbar -->
+      <div id="page-navbar"></div>
+
+      <!-- wrapper div -->
+      <div class="container" id="wrapper">
+
+         <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+
+               <div class='card border-0 bg-white p-3'>
+                  <div class='card-body'>
+                     <!-- Page Owner Head shot rounded-->
+                     <img class='img-fluid rounded-circle text-center mb-3' src='img/headshot.png'
+                        alt="Photo by <a href='https://unsplash.com/@silverkblack?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Vitaly Gariev</a> on <a href='https://unsplash.com/photos/a-smiling-woman-wearing-glasses-and-a-blue-suit-jI4HREHtae4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>">
+                     <!-- Page Owner Head shot square -- disabled -->
+                     <!-- <img alt='' class='img-fluid rounded-2 text-center mb-3' src='img/headshot.png'> -->
+
+                     <!-- Page owner contact information -->
+                     <table class="table mt-4" id="contact-table">
+                        <tbody>
+                           <tr class="d-flex">
+                              <td class="col-2"><i class="bi bi-house-fill fs-4 custom-icons"></i>
+                              </td>
+                              <td class="col-10">
+                                 Office Location 123<br />
+                                 Department<br />
+                                 University<br />
+                                 City, ST 92101<br />
+                                 <span class="pointer"><a class="" role="button" data-bs-toggle="modal"
+                                       data-bs-target="#map-modal">
+                                       <i class="bi bi-geo-alt-fill me-2"></i>Map</a></span>
+                              </td>
+                           </tr>
+                           <tr class="d-flex">
+                              <td class="col-2"><i class="bi bi-telephone-fill fs-4 custom-icons"></i>
+                              </td>
+                              <td class="col-10">
+                                 <a href="tel:5746310312">(123) 456-7890</a>
+                              </td>
+                           </tr>
+                           <tr class="d-flex">
+                              <td class="col-2"><i class="bi bi-envelope-fill fs-4 custom-icons"></i>
+                              </td>
+                              <td class="col-10">
+                                 <a href="mailto:somebody@somewhere.edu">somebody@somewhere.edu</a>
+                              </td>
+                           </tr>
+                           <tr class="d-flex">
+                              <td class="col-2">
+                                 <i class="bi bi-soundwave fs-4 custom-icons"></i>
+                              </td>
+                              <td class="col-10">
+                                 <a class="bright-blue" role="button" href="" target="_blank" data-bs-toggle="tooltip"
+                                    data-offset="0 15" data-bs-placement="right" title="Pronounce it">ˈrændela
+                                    ˈhærɪs(ə)n</a>
+                              </td>
+                           </tr>
+                           <tr class="d-flex">
+                              <td class="col-2 border-0">
+                                 <i class="bi bi-calendar-plus-fill fs-4 custom-icons"></i>
+                              </td>
+                              <td class="col-10 border-0"><a href="" target="_blank" data-bs-toggle="tooltip"
+                                    data-offset="0 15" data-bs-placement="right" title="Meet with me">Book
+                                    Appointment</a></td>
+                           </tr>
+                        </tbody>
+                     </table>
+
+                  </div>
+               </div>
+
+
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-8">
+
+               <div class='card border-0 bg-white p-3 mb-3'>
+                  <div class='card-body'>
+                     <h2 class='card-title chocolate fs-1'>About Me</h2>
+                     <h4 class='card-subtitle opacity-50'>Associate Professor of Communication</h4>
+                     <p class='my-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum sequi
+                        cupiditate,
+                        tenetur soluta ratione magnam recusandae. Veritatis id quidem nihil facere repellat magni
+                        ducimus et, autem magnam nulla deleniti debitis praesentium at tenetur vel explicabo eaque
+                        ab, atque ea? Minus <a href="" target="_blank">laborum eveniet</a> fugit similique
+                        exercitationem eligendi molestiae
+                        aperiam, quibusdam consectetur, et modi illo magni pariatur assumenda vel nobis rem ad sunt
+                        ipsum eos. Deserunt provident minus quae quas perferendis eius ullam nemo. Ea aliquid modi
+                        debitis vero sequi! Minima magnam minus porro labore sunt, optio earum officia maiores nisi
+                        enim voluptatum excepturi repellat eaque. Itaque earum ab quo quibusdam numquam.
+                     </p>
+                     <p class='my-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum sequi
+                        cupiditate,
+                        tenetur soluta ratione magnam recusandae. Veritatis id quidem nihil facere repellat magni
+                        ducimus et, autem magnam nulla deleniti debitis praesentium at tenetur vel explicabo eaque
+                        ab, atque ea? Minus laborum eveniet fugit similique <a href="" target="_blank">laborum
+                           eveniet</a> molestiae
+                        aperiam, quibusdam consectetur, et modi illo magni pariatur assumenda vel nobis rem ad sunt
+                        ipsum eos. Deserunt provident minus quae quas perferendis eius ullam nemo. Ea aliquid modi
+                        debitis vero sequi! Minima magnam minus porro labore sunt, optio earum officia maiores nisi
+                        enim voluptatum excepturi repellat eaque. Itaque earum ab quo quibusdam numquam.
+                     </p>
+                  </div>
+               </div>
+
+               <div class='card border-0 bg-white p-3 my-4'>
+                  <div class='card-body'>
+                     <h2 class='card-title chocolate fs-1'>Education</h2>
+
+
+                     <ul class="list-group border-0">
+                        <li class="list-group-item pb-3 border-0" aria-current="false">
+                           <div class="ms-2 me-auto">
+                              <div class="fs-5">PhD Rhetoric, Theory and Culture</div>
+                              <p class="mb-2">Michigan Technological University</p>
+                              <span
+                                 class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Communication</span>
+                              <span class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Birmingham Cultural
+                                 Studies</span>
+                              <span class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Rhetoric</span>
+                              <span class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Tech Comm</span>
+                              <span class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Visual
+                                 Culture</span><span
+                                 class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">New
+                                 Media</span>
+                           </div>
+                        </li>
+                        <li class="list-group-item pb-3 border-0" aria-current="false">
+                           <div class="ms-2 me-auto py-0">
+                              <div class="fs-5">MA, English (Rhetoric & Writing)</div>
+                              <p class="mb-2">San Diego State University</p>
+                           </div>
+                        </li>
+                        <li class="list-group-item pb-3 border-0" aria-current="false">
+                           <div class="ms-2 me-auto py-0">
+                              <div class="fs-5">BA (Modern Literature)</div>
+                              <p class="mb-2">Michigan Technological University</p>
+                           </div>
+                        </li>
+                     </ul>
+
+                  </div>
+               </div>
+
+            </div>
+         </div>
+
+      </div>
+      <!-- wrapper closes -->
+
+      <!-- Modal for map to my office -->
+      <div class="modal fade" id="map-modal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="map-modal"
+         aria-hidden="true">
+         <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="map-modal">Map to my office</h1>
+                  <button type="button" class="btn-close bright-blue" data-bs-dismiss="modal"
+                     aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <img alt="" class="img-fluid mx-3 my-3" src="img/map-to-my-office.jpg">
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Acknowledge banner -->
+      <div id="acknowledge" class="px-5 py-4 bg-alice-blue mt-5"></div>
+
+      <!-- Footer banner -->
+      <div id="footer" class="mt-0"></div>
+
+      <a role="button" id="back-to-top" class="btn scroll-link bg-primary py-2 px-3" href="#top"><i
+            class="bi fs-5 bi-caret-up-fill text-white"></i></a>
+
+      <!-- jquery (optional in BS v5.x) -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+         integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <!-- jquery ui (optional in BS v5.x)-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"
+         integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q=="
+         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <!-- boostrap bundle -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+         crossorigin="anonymous"></script>
+
+      <!-- Local JS -->
+      <script src="js/main.js"></script>
+
+   </body>
+
+</html>

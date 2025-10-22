@@ -1,0 +1,46 @@
+<!-- Simple Navbar (full) -->
+<nav class="navbar navbar-expand-lg custom-background-color custom-text-color p-3" data-bs-theme="dark">
+   <div class="container">
+      <a class="navbar-brand fs-3" href="index.html">Dr. Randella Harrison</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#top-navbar"
+         aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="top-navbar">
+         <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+            <li class="nav-item mx-2" id="index">
+               <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item mx-2" id="vitae">
+               <a class="nav-link" href="vitae.html">Vitae</a>
+            </li>
+            <li class="nav-item mx-2" id="teaching">
+               <a class="nav-link" href="teaching.html">Teaching</a>
+            </li>
+            <li class="nav-item mx-2" id="research">
+               <a class="nav-link" href="research.html">Research</a>
+            </li>
+         </ul>
+      </div>
+   </div>
+</nav>
+
+<!-- Set the border bottom on the active page (assigned with a data- element on the body element) and change the anchor (a) element inside it to have class text-white -->
+<script>
+
+   $(document).ready(function () {
+
+      // Get current page
+      var currentPage = $("body").data("current-page");
+      console.log(currentPage);
+
+      // Add active class to current page in navbar
+      var pageNow = "#top-navbar li#" + currentPage;
+      console.log(pageNow);
+
+      $(pageNow).addClass("active").find("a").addClass("text-white");
+
+   });
+   // document.ready closes
+
+</script>

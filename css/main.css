@@ -1,0 +1,139 @@
+:root {
+   /* root color variables */
+   --body-background: #f0f3f6;
+   --alice-blue: aliceblue;
+   --footer-slate: #20364c;
+   --body-font: #666;
+   --graphite: #506578;
+   --trench-blue: #406885;
+   --chocolate: #d2691e;
+   --silver: silver;
+   --white: white;
+   --custom-icons: #b9c6d0;
+   --bright-blue: #007bff;
+   /* --bs-tooltip-bg: #525151 !important;
+   --bs-tooltip-color: #ffffff !important; */
+}
+
+html {
+   font-size: 16px;
+}
+
+body {
+   box-sizing: border-box;
+   font-family: "Figtree", Helvetica, Arial, sans-serif;
+   color: var(--body-font);
+   font-weight: 400;
+   font-size: 1rem;
+   background: var(--body-background);
+}
+
+p,
+ul,
+li,
+table,
+tr,
+td {
+   color: var(--graphite);
+   font-size: 1.1rem;
+}
+
+p {
+   line-height: 1.5;
+   margin-bottom: 1.4rem;
+}
+
+#wrapper {
+   padding-top: 5rem;
+}
+
+/* custom colors */
+.bg-alice-blue {
+   background-color: var(--alice-blue);
+}
+
+.body-font {
+   color: var(--body-font);
+}
+
+.custom-icons {
+   color: var(--custom-icons);
+}
+
+.silver {
+   color: var(--silver);
+}
+
+.chocolate {
+   color: var(--chocolate);
+}
+
+.bright-blue {
+   color: var(--bright-blue) !important;
+}
+
+.opacity-50 {
+   opacity: .5;
+}
+
+/* Back to top button  --------------------------------------- */
+#back-to-top {
+   display: none;
+   position: fixed;
+   bottom: 40%;
+   right: 0;
+   z-index: 99;
+   border: none;
+   outline: none;
+   background-color: var(--bright-blue);
+   color: var(--white) !important;
+   padding: 8px 4px 10px 4px;
+   border-radius: 2px 0 0 2px;
+   font-size: 1rem;
+   cursor: pointer !important;
+}
+
+#back-to-top:hover {
+   background-color: var(--bright-blue);
+   color: var(--white);
+}
+
+#top-navbar li.active {
+   border-bottom: 3px solid white;
+}
+
+/* You should keep the text-decoration-underline declaration for folks with visual impairment; still, it's possible to set the offset to improve the aesthetics for everyone */
+a {
+   text-decoration: underline;
+   /* optional: makes it look cleaner */
+   text-decoration-thickness: 1.5px;
+   /* increase space below text */
+   text-underline-offset: 3px;
+}
+
+/* Set cursor as pointer */
+.pointer {
+   cursor: pointer;
+}
+
+/* Navbar custom background and text color */
+.custom-background-color {
+   background: #134786 !important;
+}
+
+.custom-text-color {
+   color: #ffffff !important;
+}
+
+#footer-insert #nav-pages li a:hover {
+   background: var(--white);
+   color: var(--bright-blue) !important;
+   border-radius: .25rem;
+}
+
+.tooltip {
+   --bs-tooltip-color: #0c0b4c !important;
+   --bs-tooltip-bg: #ffffff !important;
+   --bs-tooltip-arrow-width: 0;
+   --bs-tooltip-arrow-height: 0;
+}

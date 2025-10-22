@@ -1,0 +1,19 @@
+/* Web Site Design ---- */
+/* YOU MAY REMOVE MY NAME FROM PUBLIC-FACING WEBPAGES IN THIS SITE, BUT PLEASE LEAVE THIS ATTRIBUTION INFORMATION (THE HUMANS.TXT FILE) HERE. */
+
+   Project: Academic Professional Website Template with Bootstrap v5.x
+   Web Design and Development
+
+	 Copyright 2025
+
+   Developer: Randal Sean Harrison, Ph.D.
+ 	 Employed: Hesburgh Libraries, University of Notre Dame
+	 Contact: rharriso@nd.edu
+
+/* Technologies, Credits  */
+
+   Languages: HTML5, CSS3, Javascript
+   Frameworks: jQuery, Bootstrap 5
+   Web Fonts: Boostrap Icons, Figtree
+
+   IDE/Env: VS Code

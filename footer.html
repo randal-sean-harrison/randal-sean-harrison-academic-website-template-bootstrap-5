@@ -1,0 +1,61 @@
+<footer class="p-4 pt-5 custom-background-color custom-text-color" id="footer-insert">
+   <div class="container">
+      <div class="row">
+         <div class="col-12 mb-4">
+            <h4>Dr. Randella Harrison</h4>
+            <h5 class="opacity-50">Associate Professor of Communication</h5>
+         </div>
+      </div>
+      <div class="row justify-content-between">
+         <div class="col-12 col-md-8">
+            <ul class="nav justify-content-start mb-3" id="nav-pages">
+               <li class="nav-item mx-2">
+                  <a class="nav-link p-2 text-white" href="index.html">About</a>
+               </li>
+               <li class="nav-item mx-2">
+                  <a class="nav-link p-2 text-white" href="vitae.html">Vitae</a>
+               </li>
+               <li class="nav-item mx-2">
+                  <a class="nav-link p-2 text-white" href="teaching.html">Teaching</a>
+               </li>
+               <li class="nav-item mx-2">
+                  <a class="nav-link p-2 text-white" href="research.html">Research</a>
+               </li>
+            </ul>
+         </div>
+         <div class="d-flex col-12 col-md-4 justify-content-center justify-content-md-end">
+            <a href="#" class="mx-3" data-bs-toggle='tooltip' title='Github' data-bs-placement='top'>
+               <i class="bi fs-4 bi-github text-white"></i>
+            </a>
+            <a href="#" class="mx-3" data-bs-toggle='tooltip' title='Apple' data-bs-placement='top'>
+               <i class="bi fs-4 bi-apple text-white"></i>
+            </a>
+            <a href="#" class="mx-3" data-bs-toggle='tooltip' title='LinkedIn' data-bs-placement='top'>
+               <i class="bi fs-4 bi-linkedin text-white"></i>
+            </a>
+            <a href="#" class="mx-3" data-bs-toggle='tooltip' title='Facebook' data-bs-placement='top'>
+               <i class="bi fs-4 bi-facebook text-white"></i>
+            </a>
+         </div>
+         <div class="col-12 mt-3">
+            <hr>
+            <p class="fs-6 text-start mt-1 text-white opacity-50">
+               &copy;
+               <span id="footer-year"></span>
+               Randella Harrison, PhD
+            </p>
+         </div>
+      </div>
+   </div>
+</footer>
+
+<script>
+
+   $(document).ready(function () {
+
+      // Enable tooltips
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+   })
+</script>
