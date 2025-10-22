@@ -131,9 +131,30 @@ a {
    border-radius: .25rem;
 }
 
+/* You can adjust the color of your Tooltips here */
 .tooltip {
-   --bs-tooltip-color: #0c0b4c !important;
-   --bs-tooltip-bg: #ffffff !important;
-   --bs-tooltip-arrow-width: 0;
-   --bs-tooltip-arrow-height: 0;
+   /* Background and color */
+   --bs-tooltip-bg: #0c0b4c !important;
+   --bs-tooltip-color: #ffffff !important;
+   /* Removes the pointer arrow on the tooltip  */
+   /* --bs-tooltip-arrow-width: 0;
+   --bs-tooltip-arrow-height: 0; */
+}
+
+.publications li {
+   padding-left: 2rem;
+   text-indent: -4rem;
+   list-style-type: none;
+   margin: 1rem 0 1rem 2rem;
+}
+
+/* For No Background */
+#course-accordion .accordion-button:not(.collapsed) {
+   background-color: none;
+}
+
+/* For Custom Colors */
+#course-accordion .accordion-button:not(.collapsed) {
+   background-color: #ecf1f8;
+   color: #000000 !important;
 }

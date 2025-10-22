@@ -63,6 +63,27 @@ $(document).ready(function () {
       }
    });
 
+   // Open all courses at once
+   // open all accordion panels for possible printing or close -----------
+   $(".expander").on("click", function () {
+      if ($(".expander").text() === "Open all") {
+         // Change the button text
+         $(".expander").text("Close all");
+         // show all accordions
+         $("#wrapper .collapse").collapse("show");
+         $("#teaching-section .btn").prev().find("i").addClass("fa-rotate-45");
+         // write text to button
+         $(this).empty().append("<i class='fa-duotone fa-minus mr-2'></i>Close all");
+      } else {
+         // Change the button text
+         $(".expander").text("Open all");
+         // hide all accordions
+         $("#wrapper .collapse").collapse("hide");
+         $("#teaching-section .btn").prev().find("i").removeClass("fa-rotate-45");
+         // write text to button
+         $(this).empty().append("<i class='fa-duotone fa-plus mr-2'></i>Open all");
+      }
+   });
 
 });
 // document.ready closes

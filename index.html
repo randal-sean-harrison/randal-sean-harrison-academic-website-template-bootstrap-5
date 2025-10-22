@@ -45,6 +45,15 @@
 
       <!-- Local CSS -->
       <link href="css/main.css" rel="stylesheet">
+
+      <style>
+         /* To hide the alert on the home page, comment "display:block" rather than "display:none" */
+         #announcement-1 {
+            /* display: none; */
+            display: block;
+         }
+      </style>
+
    </head>
 
    <body id="top" data-current-page="index" class="p-0">
@@ -54,6 +63,24 @@
 
       <!-- wrapper div -->
       <div class="container" id="wrapper">
+
+         <!-- Announcement row -- hide this or show it in the CSS, above. -->
+         <div class="row mb-5" id="announcement-1">
+            <div class="col-12">
+
+               <!-- Announcement -->
+               <div class='alert alert-primary alert-dismissible fade show border-0' role='alert'>
+                  <h5 class="fw-bold">Announcing my new course in <em>Lorem Ipsum</em></h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                     elit. Iusto quas <a class='alert-link' href='#'>suscipit placeat</a> ut libero
+                     fugiat.</p><button type='button' class='btn-close' data-bs-dismiss='alert'
+                     aria-label='Close'></button>
+               </div>
+
+            </div>
+         </div>
+
+
 
          <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4">
@@ -101,8 +128,7 @@
                                  <i class="bi bi-soundwave fs-4 custom-icons"></i>
                               </td>
                               <td class="col-10">
-                                 <a class="bright-blue" role="button" href="" target="_blank" data-bs-toggle="tooltip"
-                                    data-offset="0 15" data-bs-placement="right" title="Pronounce it">ˈrændela
+                                 <a class="bright-blue" role="button" href="#" target="_blank">ˈrændela
                                     ˈhærɪs(ə)n</a>
                               </td>
                            </tr>
@@ -110,8 +136,7 @@
                               <td class="col-2 border-0">
                                  <i class="bi bi-calendar-plus-fill fs-4 custom-icons"></i>
                               </td>
-                              <td class="col-10 border-0"><a href="" target="_blank" data-bs-toggle="tooltip"
-                                    data-offset="0 15" data-bs-placement="right" title="Meet with me">Book
+                              <td class="col-10 border-0"><a href="#" target="_blank">Book
                                     Appointment</a></td>
                            </tr>
                         </tbody>
@@ -163,16 +188,18 @@
                            <div class="ms-2 me-auto">
                               <div class="fs-5">PhD Rhetoric, Theory and Culture</div>
                               <p class="mb-2">Michigan Technological University</p>
-                              <span
-                                 class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Communication</span>
-                              <span class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Birmingham Cultural
+                              <span class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Rhetorical
+                                 Criticism</span>
+                              <span class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Social Movement
                                  Studies</span>
-                              <span class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Rhetoric</span>
-                              <span class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Tech Comm</span>
-                              <span class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Visual
-                                 Culture</span><span
-                                 class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">New
-                                 Media</span>
+                              <span class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Political
+                                 Communication</span>
+                              <span class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Digital
+                                 Activism</span>
+                              <span class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Media
+                                 Effects</span><span
+                                 class="badge text-bg-secondary rounded-pill mx-1 my-1 px-3 py-2">Audience
+                                 Studies</span>
                            </div>
                         </li>
                         <li class="list-group-item pb-3 border-0" aria-current="false">
