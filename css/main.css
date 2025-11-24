@@ -166,3 +166,16 @@ a {
    background-color: #ecf1f8;
    color: #000000 !important;
 }
+
+
+/* To hide the alert on the home page, comment out "display:block", rather than "display:none" */
+#announcement-1 {
+   /* display: none;  ------- this has been commented out */
+   display: block;
+}
+
+/* To hide the acknowledge banner, comment out "display:block", rather than "display:none" */
+#acknowledge {
+   /* display: none;  ------- this has been commented out */
+   display: block;
+}

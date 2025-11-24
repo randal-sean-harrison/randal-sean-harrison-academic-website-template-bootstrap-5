@@ -110,9 +110,9 @@
             <div class='container p-5'>
                <h3 class='display-5 fw-bold text-end text-white'>docs</h3>
 
-               <ul class="list-group list-group-flush text-end bg-transparent border-white border-end me-2">
+               <ul class="list-group list-group-flush text-end bg-transparent border-white border-end me-2 p-0">
                   <li data-target="section1"
-                     class="list-group-item list-group-item-action text-end bg-transparent lead fw-bold text-white opacity-50 border-0 pointer"
+                     class="list-group-item list-group-item-action text-end bg-transparent lead fw-bold text-white opacity-50 border-0 pointer p-2"
                      aria-current="false">What is this?</li>
                   <li data-target="section2"
                      class="list-group-item list-group-item-action bg-transparent lead fw-bold text-white opacity-50 border-0 pointer"
@@ -164,7 +164,8 @@
             <p>You can download the website template in several ways. First, <a
                   href="https://github.com/randal-sean-harrison/randal-sean-harrison-academic-website-template-bootstrap-5"
                   target="_blank">visit the GitHub Repo(sitory)</a> for the template.</p>
-            <p>Steps:</p>
+
+            <h4 class="mt-3">Steps</h4>
             <ol>
                <li>Click on the 'Code' button</li>
                <li>Click 'Download ZIP'</li>
@@ -174,7 +175,7 @@
 
             <img alt='image of how to download' class='img-fluid my-3 shadow' src='img/download.png'>
 
-            <p class="mt-5">Alternatively:</p>
+            <h4 class="mt-5">Alternatively...</h4>
 
             <p class="mt-2">If you're familiar with Git/GitHub you can clone the repo directly. Copy this line and paste
                it into your terminal/command line interface (CLI):</p>
@@ -193,13 +194,133 @@
                in any code editor and make changes to individual
                files.
                Use my <a href="https://bootstrapr.io" target="_blank">Bootstrapr.io</a> tool to create any custom
-               elements you require that are not present in the original template. I demonstrate this process in the
-               video below.</p>
+               elements you require that are not present in the original template. I demonstrate this process in <a
+                  href="#modify-video">this
+                  video, below</a>.</p>
 
-            <div style="position: relative; padding-bottom: 64.5933014354067%; height: 0;" class="mt-4"><iframe
-                  src="https://www.loom.com/embed/417f418e2e3a4a30b0310287963c2cb4" frameborder="0"
+
+            <h4>Noteworthy Features</h4>
+            <ul class="list-group list-group-flush">
+               <li class="list-group-item list-group-item-action" aria-current="false">
+                  <div class="ms-2 me-auto">
+                     <div class="fw-bold fs-5"><code>docs.html</code></div>
+                     <p>This is used for my tutorial only. You can safely delete this file.</p>
+                  </div>
+               </li>
+               <li class="list-group-item list-group-item-action" aria-current="false">
+                  <div class="ms-2 me-auto">
+                     <div class="fw-bold fs-5"><code>navbar.html</code></div>
+                     <p>This file holds the navigation for the website. It's loaded dynamically, so if you are add
+                        another page, make sure to match the
+                        ID (<kbd class="bg-light fs-5"><code>id=""</code></kbd>) of the page on the list element (figure
+                        1) in the nav to the
+                        <kbd class="bg-light fs-5"><code>data-current-page</code></kbd>
+                        attribute
+                        on the <kbd class="bg-light fs-5"><code>&lt;body&gt;</code></kbd> element of the new page
+                        (figure 2). Don't forget to add the new page link to the <code>footer.html</code> page.
+                     </p>
+                     <p>For a
+                        demo on how to add a new page, see the video below.</p>
+
+                     <!-- Figures -->
+                     <figure class="figure">
+                        <img alt="Figure 1" class="img-fluid rounded-2 mx-3 my-3 shadow-sm" src="img/fig1.png">
+                        <figcaption class="figure-caption ms-5"><strong>Figure 1:</strong> navbar.html page</figcaption>
+                     </figure>
+                     <figure class="figure">
+                        <img alt="Figure 2" class="img-fluid rounded-2 mx-3 my-3 shadow-sm" src="img/fig2.png">
+                        <figcaption class="figure-caption ms-5"><strong>Figure 2:</strong> the newly created page
+                        </figcaption>
+                     </figure>
+
+                  </div>
+               </li>
+               <li class="list-group-item list-group-item-action" aria-current="false">
+                  <div class="ms-2 me-auto">
+                     <div class="fw-bold fs-5"><code>footer.html</code></div>
+                     <p>This file holds the footer for each page. Adding links to the navigation in the footer is far
+                        less complicated than adding new links to the <kbd
+                           class="bg-light fs-5"><code>navbar.html</code></kbd> file. Simply add the link to the footer
+                        and point it
+                        to the
+                        correct new file. </p>
+                  </div>
+               </li>
+               <li class="list-group-item list-group-item-action" aria-current="false">
+                  <div class="ms-2 me-auto">
+                     <div class="fw-bold fs-5"><code>acknowledge.html</code></div>
+                     <p>The <kbd class="bg-light fs-5"><code>acknowledge.html</code></kbd> file is inserted above the
+                        footer on each page. If you wish, you may
+                        remove it
+                        entirely, or simply hide it. To hide it,
+                        open the <kbd class="bg-light fs-5"><code>css/main.css</code></kbd> file, comment out <kbd
+                           class="bg-light fs-5"><code>/* display: block; */</code></kbd>, and
+                        uncomment/restore <kbd class="bg-light fs-5"><code>display: none;</code></kbd>.</p>
+
+                     <figure class="figure">
+                        <img alt="Figure 4" class="img-fluid rounded-2 mx-3 my-3 shadow-sm" src="img/fig4.png">
+                        <figcaption class="figure-caption ms-5"><strong>Figure 3:</strong> Hiding the Acknowledge banner
+                        </figcaption>
+                     </figure>
+                  </div>
+               </li>
+               <li class="list-group-item list-group-item-action" aria-current="false">
+                  <div class="ms-2 me-auto">
+                     <div class="fw-bold fs-5"><code>vitae.html</code></div>
+                     <p>In this template, I insert a Google Doc into the <kbd
+                           class="bg-light fs-5"><code>vitae.html</code></kbd> page. The clear benefit is that you only
+                        ever have to edit your vitae in a single place. To replace my sample vitae (Google Doc) with
+                        your own, simply replace the Google Document ID. Make sure to do it in both places: 1) The link
+                        to Google Docs, 2) the embed of the Google Doc. IMPORTANT: Also, make sure to share your Google
+                        Doc with the world.</p>
+
+                     <figure class="figure">
+                        <img alt="Figure 3" class="img-fluid rounded-2 mx-3 my-3 shadow-sm" src="img/fig5.png">
+                        <figcaption class="figure-caption ms-5"><strong>Figure 4:</strong> Replacing the Google doc ID
+                        </figcaption>
+                     </figure>
+
+                  </div>
+               </li>
+               <li class="list-group-item list-group-item-action" aria-current="false">
+                  <div class="ms-2 me-auto">
+                     <div class="fs-5"><code class="fw-bold">index.html</code> (the banner/alert)</div>
+                     <p>The blue banner atop the homepage points to how to download the template and links to the
+                        documentation page. For your purposes, it's not necessary to keep it. You can remove it
+                        entirely, or hide it (in case you'll need a banner in that location in future). To hide it,
+                        open the <kbd class="bg-light fs-5"><code>css/main.css</code></kbd> file, comment out <kbd
+                           class="bg-light fs-5"><code>/* display: block; */</code></kbd>, and
+                        uncomment/restore <kbd class="bg-light fs-5"><code>display: none;</code></kbd>.</p>
+
+                     <figure class="figure">
+                        <img alt="Figure 3" class="img-fluid rounded-2 mx-3 my-3 shadow-sm" src="img/fig3.png">
+                        <figcaption class="figure-caption ms-5"><strong>Figure 5:</strong> Hiding the homepage alert
+                        </figcaption>
+                     </figure>
+
+                  </div>
+               </li>
+               <li class="list-group-item list-group-item-action" aria-current="false">
+                  <div class="ms-2 me-auto">
+                     <div class="fw-bold fs-5"><code>humans.txt</code></div>
+                     <p>Please leave this in place, as it attributes original creation of this template to me. For more,
+                        see <a href="#section5">How do I Credit the Author</a>, below. </p>
+
+                  </div>
+               </li>
+            </ul>
+
+
+
+            <!-- video tutorial embed -->
+            <hr>
+            <h4 class="mt-4 mb-4" id="modify-video">TUTORIAL | Modifying the Template</h4>
+            <div style="position: relative; padding-bottom: 64.5933014354067%; height: 0;" class="shadow"><iframe
+                  src="https://www.loom.com/embed/7cce8cdce0f54a2684200f676e440176" frameborder="0"
                   webkitallowfullscreen mozallowfullscreen allowfullscreen
-                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+            </div>
+
          </div>
 
          <!-- section 5 -->
