@@ -6,6 +6,10 @@ It's designed with the ubiquitous and popular front-end, Bootstrap (v5.3). And i
 
 [![View the Docs](https://img.shields.io/badge/View_the_Docs-007bff?style=for-the-badge)](https://randal-sean-harrison.github.io/randal-sean-harrison-academic-website-template-bootstrap-5/docs.html)
 
+<a href="[https://randal-sean-harrison.github.io/randal-sean-harrison-academic-website-template-bootstrap-5/docs.html](https://randal-sean-harrison.github.io/randal-sean-harrison-academic-website-template-bootstrap-5/docs.html)" target="_blank" style="text-decoration: none;">
+  <!-- Embed the Shields.io badge URL as an image -->
+  <img src="[https://img.shields.io/badge/View_the_Docs-007bff?style=for-the-badge](https://img.shields.io/badge/View_the_Docs-007bff?style=for-the-badge)" alt="View the Docs Button">
+</a>
 --- 
 
 ## Features
