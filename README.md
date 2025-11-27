@@ -6,7 +6,7 @@ It's designed with the ubiquitous and popular front-end, Bootstrap (v5.3). And i
 
 [![View the Docs](https://img.shields.io/badge/View_the_Docs-007bff?style=for-the-badge)](https://randal-sean-harrison.github.io/randal-sean-harrison-academic-website-template-bootstrap-5/docs.html)
 
-
+---
 
 ## Features
 
