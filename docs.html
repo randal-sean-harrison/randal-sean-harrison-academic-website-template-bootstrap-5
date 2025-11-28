@@ -96,6 +96,19 @@
             background-color: transparent;
             /* Changes the text color of the selection */
          }
+
+         .w-responsive {
+            width: 50% !important;
+         }
+
+         /* Set the width to 50% on large screens and 100% on smaller devices */
+         @media (max-width: 992px) {
+
+            /* lg breakpoint */
+            .w-responsive {
+               width: 100% !important;
+            }
+         }
       </style>
 
    </head>
@@ -167,18 +180,30 @@
                   target="_blank">visit the GitHub Repo(sitory)</a> for the template.</p>
 
             <h4 class="mt-3">Steps</h4>
-            <ol>
-               <li>Click on the 'Code' button</li>
-               <li>Click 'Download ZIP'</li>
-               <li>Save the ZIP file to your Desktop</li>
-               <li>Unzip the file by double-clicking it</li>
+            <ol class="list-group list-group-flush list-group-numbered mb-4">
+               <li class="list-group-item list-group-item-action w-responsive" aria-current="false">Click on the
+                  'Code' button</li>
+               <li class="list-group-item list-group-item-action w-responsive" aria-current="false">Click 'Download
+                  ZIP'</li>
+               <li class="list-group-item list-group-item-action w-responsive" aria-current="false">Save the ZIP file
+                  to your desired
+                  location (Desktop?)</li>
+               <li class="list-group-item list-group-item-action w-responsive" aria-current="false">Unzip the file by
+                  double-clicking
+                  it</li>
+               <li class="list-group-item list-group-item-action w-responsive" aria-current="false">Delete the ZIP
+                  file</li>
+               <li class="list-group-item list-group-item-action w-responsive" aria-current="false">Rename the
+                  extracted folder to
+                  your liking</li>
             </ol>
 
             <img alt='image of how to download' class='img-fluid my-3 shadow' src='img/download.png'>
 
             <h4 class="mt-5">Alternatively...</h4>
 
-            <p class="mt-2">If you're familiar with Git/GitHub you can clone the repo directly. Copy this line and paste
+            <p class="mt-2">If you're familiar with Git/GitHub you can clone the repo directly. Open your terminal
+               application and change directory to your desired location. Then, simply copy this line and paste
                it into your terminal/command line interface (CLI):</p>
 
             <p class="copy-util text-break text-wrap ps-3">git clone
@@ -226,7 +251,7 @@
                <li class="list-group-item list-group-item-action" aria-current="false">
                   <div class="ms-2 me-auto">
                      <div class="fw-bold fs-5"><code>docs.html, README.md, LICENSE.md</code></div>
-                     <p>These files are used for my tutorial only. You can safely delete them.</p>
+                     <p>These files are used my documentation purposes only. You can safely delete them.</p>
                   </div>
                </li>
                <li class="list-group-item list-group-item-action" aria-current="false">
@@ -260,9 +285,11 @@
                <li class="list-group-item list-group-item-action" aria-current="false">
                   <div class="ms-2 me-auto">
                      <div class="fw-bold fs-5"><code>footer.html</code></div>
-                     <p>This file holds the footer for each page. Adding links to the navigation in the footer is far
+                     <p>This file holds the footer for each page. The footer has a set of navigation links, as well.
+                        Adding links to the navigation in the footer is much
                         less complicated than adding new links to the <kbd
                            class="bg-light fs-5"><code>navbar.html</code></kbd> file. Simply add the link to the footer
+                        navigation
                         and point it
                         to the
                         correct new file. </p>
@@ -298,7 +325,7 @@
                         to Google Docs, 2) the embed of the Google Doc.</p>
 
                      <p class="alert alert-warning"><strong>IMPORTANT:</strong> Don't forget to share your Google
-                        Doc publicly.</p>
+                        Doc publicly to make your vitae readable to the public.</p>
 
                      <figure class="figure">
                         <img alt="Figure 3" class="img-fluid rounded-2 mx-3 my-3 shadow-sm" src="img/fig5.png">
@@ -347,11 +374,13 @@
                will demonstrate two options for uploading your static site. I will demonstrate uploading to GitHub and
                Netlify, two of the most ubiquitous platforms.</p>
             <ul>
-               <li><span class="fw-bold">Drag and Drop &mdash;</span> For those new to the command-line, it may be
+               <li class="mb-3"><span class="fw-bold">Drag and Drop &mdash;</span> For those new to the command-line, it
+                  may be
                   easier to
                   drag and drop your entire website folder to upload it. We'll use Netlify, since it keeps your folders
                   more easily synced when dragging and dropping.</span></li>
-               <li><span class="fw-bold">CLI &mdash; </span>I find using CLI (Command Line Interface), aka 'Terminal' to
+               <li class="mb-3"><span class="fw-bold">CLI &mdash; </span>I find using CLI (Command Line Interface), aka
+                  'Terminal' to
                   be the fastest way to deploy
                   changes you've made to a local website to the cloud. We'll use GitHub, since it provides a robust
                   interface, and it takes just a few commands, which will become
